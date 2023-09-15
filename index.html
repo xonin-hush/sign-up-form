@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up-form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <p>hola</p>
+    <div id="left-side">
+        <div class="no-logo">Xonin</div> <img id="img" src="./matheo-lamy-katsu-devilman-4.jpg">
+    </div>
+    <div id="right-side">
+        <p class="text1">this is some text that we're gonna change soon enough
+            i'm listening to 4EVER by Clairo
+        </p>
+        <form action="" method="post">
+            <div class="left">
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+
+                <div>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" id="phone-number">
+                </div>
+
+                <div>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password">
+                </div>
+            </div>
+        </form>
+        <button>sign up</button>
+        <div>Alredy have an account? <a href="">sing in here</a></div>
+    </div>
 </body>
+
 </html>
