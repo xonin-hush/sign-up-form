@@ -16,35 +16,43 @@
         <p class="text1">this is some text that we're gonna change soon enough
             i'm listening to 4EVER by Clairo
         </p>
+        <legend>LET'S DO THIS</legend>
         <form action="" method="post">
+
             <div class="left">
+
                 <div>
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name">
+                    <input type="text" id="first-name" name="first-name" required>
                 </div>
                 <div>
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required
+                        pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
                 </div>
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" required
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+                    <!-- Minimum eight characters, at least one letter, one number and one special character: -->
                 </div>
             </div>
             <div class="right">
                 <div>
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
+                    <input type="text" id="last-name" name="last-name" required>
                 </div>
 
                 <div>
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="text" id="phone-number">
+                    <input type="text" id="phone-number" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
                 </div>
 
                 <div>
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label required>
+                    <input type="password" id="confirm-password" required
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+                    <!-- Minimum eight characters, at least one letter, one number and one special character: -->
                 </div>
             </div>
         </form>
