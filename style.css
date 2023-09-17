@@ -1,37 +1,43 @@
-
 body {
     margin: 0px;
     display: flex;
     flex-direction: row;
-    
+
 }
-label,input{
+
+label,
+input {
     display: block;
 }
-form{
-    
+
+form {
+
     display: flex;
 }
-input{
+
+input {
     margin-bottom: 20px;
 
 }
 
-.right{
-    margin-left:60px ;
+.right {
+    margin-left: 60px;
 }
-.text1{
+
+.text1 {
     margin: 150px;
     margin-bottom: 70px;
     font-weight: bolder;
-    
+
 }
+
 #img {
     height: 100vh;
     width: 40vw;
 }
-#right-side{
-    background-color:aliceblue;
+
+#right-side {
+    background-color: aliceblue;
     padding-left: 50px;
 }
 
@@ -43,8 +49,14 @@ input{
     position: absolute;
     font-size: 50px;
 }
-legend{
+
+legend {
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: x-large;
+}
+
+input:focus{
+    outline: none !important;
+    border: 2px solid #5388b3;
 }
