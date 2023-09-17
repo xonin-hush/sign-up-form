@@ -16,9 +16,7 @@ input{
     margin-bottom: 20px;
 
 }
-.left{
-    margin-left:40px ;
-}
+
 .right{
     margin-left:60px ;
 }
@@ -33,6 +31,7 @@ input{
 }
 #right-side{
     background-color:aliceblue;
+    padding-left: 50px;
 }
 
 .no-logo {
